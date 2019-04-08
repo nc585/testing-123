@@ -1,0 +1,10 @@
+# code from github webpage, specifies versions so server understands what environment is like
+#configuring server and saying what should happen
+#script attribute indicates what is happening
+
+dist: xenial
+language: python
+python:
+  - "3.7"
+script:
+  - pytest
