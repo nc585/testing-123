@@ -4,6 +4,6 @@ from app.my_script import enlarge # load the `enlarge()` function to avoid NameE
 
 def test_enlarge(): # note the function name is prefixed with "test_"
     result = enlarge(3) # directly invoke the function we want to test
-    assert result == 9 # describe expectations for desired behavior
+    assert result == 30000 # describe expectations for desired behavior
 
 #add init file to app directory to be able to show where script comes from 
